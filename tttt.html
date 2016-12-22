@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自主旅游</title>
+	<!-- 视口设置 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<!-- IE优化 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 引入bootstrap的css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- 引入jquery环境 -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- 引入bootstrap文件 -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- 判断，如果是IE9以下，引入兼容h5标签的js文件，注意空格的位置 -->
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5shiv.min.js"></script>
+	<script type="text/javascript" src="js/respond.min.js"></script>
+	<![end if] -->
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- 导航栏 -->
+	<link rel="stylesheet" type="text/css" href="css/jq22.css">
+	<!-- 引入插件 -->
+	<link rel="stylesheet" href="css1/simple.slide.css" type="text/css">
+	<link rel="stylesheet" href="css1/animate.css">
+	<link rel="stylesheet" type="text/css" href="css1/demo.css">
+</head>
+<body>
+	<!-- 导航条开始 -->
+	<nav class="navbar navbar-default navbar-static-top">
+			<!-- 内部容器开始 -->
+			<div class="container">
+				
+				<div class="navbar-header">
+					<!-- logo -->
+					<a href="tttt.html" class="navbar-logo" style="color:#fff;">自助旅游</a>
+					<!-- 响应式菜单按钮开始 -->
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wrapper">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>				
+				<!-- 导航菜单 -->
+				<div id="wrapper" class="collapse navbar-collapse col-md-9">
+					<div id="menu" class="nav-header">
+					    <ul>
+						    <li><a href="#"><span>主画面</span></a></li>
+						    <li class="aboutUs-a"><a href="#"><span>关于我们</span></a></li>
+						    <li class="services-a"><a href="#"><span>提供服务</span></a></li>
+						    <li class="events-a"><a href="#"><span>游客经历</span></a></li>
+						    <li class="gallery-a"><a href="#"><span>旅游展示</span></a></li>
+						    <li class="Volunteer-a"><a href="#"><span>志愿者</span></a></li>
+						    <li class="contact-a"><a href="#"><span>联系我们</span></a></li>
+						</ul>
+						
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			<!-- 内部容器结束 -->
+	</nav>
+	<!-- 导航条结束 -->
+	<!-- 轮播图开始 -->
+	<div class="container-fluid">					
+		<div id="myCarousel" class="carousel slide">			
+			<!-- 轮播指针开始 -->
+			<ol class="carousel-indicators">
+            	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            	<li data-target="#myCarousel" data-slide-to="1"></li>
+            	<li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+			<!-- 轮播动画 -->
+        	<div class="carousel-inner" id="bannerPlay">
+            	<div class="item active">
+                	<img src="images/banner1.jpg">
+                </div>
+                <div class="item">
+                	<img src="images/banner2.jpg">
+                </div>
+                <div class="item">
+                	<img src="images/banner3.jpg">
+                </div>
+            </div>
+            <!--轮播导航-->         
+            <a href="#myCarousel" class="carousel-control left bannerBtn role-button" data-slide="prev"><span>&lsaquo;</span></a>
+            <a href="#myCarousel" class="carousel-control right bannerBtn role-button" data-slide="next"><span>&rsaquo;</span></a>
+		</div>
+	</div>
+	<!-- 轮播图结束 -->
+	<!-- 关于我们开始 -->
+	<section class="aboutUs" id="aboutUs">
+		<h3 class="text-center">关于我们</h3>
+		<p class="text-center">我们提供最美的地方给大家游玩</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 about-img">
+					<img src="images/about-img.jpg" alt="关于我们" class="img-responsive">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="about-info">
+						<h4>我们是最好的</h4>
+						<p>我们承诺，价位公道合理：每一位由我们安排的客人，都会得到我社相应安排的直接负责经理的手机号码，无论您在来之前、游之中、返之后，有任何疑问都会相应及时的帮你妥善解</p>
+						<p>无论您什么时候来，也无论您是多少人，即使是一人我社也可以帮您安排散客拼团或独立成团或自助游</p>
+						<p>想游客之所想，按不同客人需求提供多类型的旅游线路，无论是独立成团、散客拼团、纯玩自助游等等。在这里，总有一条旅游线路适合您。</p>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<!-- 关于我们结束 -->
+	<!-- 提供服务开始 -->
+	<section class="services" id="services">
+		<h3 class="text-center">提供服务</h3>
+		<p class="text-center">领先的服务标准  独创的保障体系.</p>
+		<div class="container">
+			<div class="row">
+				<!-- 左侧折叠菜单开始 -->
+				<div class="col-md-6">
+					<!-- 面板组 -->
+					<div class="panel-group" id="panelGroup">
+						<!-- 面板1 -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a href="#one" class="panel-title" data-toggle="collapse" data-parent="#panelGroup"><div>出境旅游</div></a>
+							</div>
+							<div id="one" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p>1.韩国济州市+西归浦市5日4晚跟团游</p>
+									<p>2.巴厘岛7日5晚半自助游·五星酒店+别墅+阿勇河+饕餮美食盛宴+直飞</p>
+									<p>3.普吉岛5日4晚自由行(5钻)·五星酒店特卖 专车接送机</p>
+									<p>4.皇家加勒比国际游轮【海洋赞礼号】6天5晚釜山+福冈</p>
+									<p>5.马尔代夫班多士岛Bandos自由行(4钻)·8日6晚 早晚餐 香港2晚 特卖</p>
+								</div>
+							</div>
+						</div>
+						<!-- 面板2 -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a href="#two" class="panel-title" data-toggle="collapse" data-parent="#panelGroup"><div>国内旅游</div></a>
+							</div>
+							<div id="two" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>1.云南+昆明+大理+丽江+玉龙雪山6日5晚跟团游(5钻)·明星导游 奢享游艇</p>
+									<p>2.三亚3日自由行(5钻)· 酒店甩卖·10元特惠游分界洲</p>
+									<p>3.上海迪士尼（Disney）3日自由行(5钻)·双飞 ·瑞金洲际酒店 自选迪士尼门票</p>
+									<p>4.鼓浪屿+厦门4日自由行·1晚鼓浪屿2晚厦门 半价换购专车接机+上岛</p>
+									<p>5.北京5日自由行(4钻)·京伦饭店优惠30%</p>
+								</div>
+							</div>
+						</div>
+						<!-- 面板3 -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a href="#three" class="panel-title" data-toggle="collapse" data-parent="#panelGroup"><div>轮游</div></a>
+							</div>
+							<div id="three" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>1.【大西洋号】济州+福冈 6天5晚</p>
+									<p>2.【海洋赞礼号】仁川/首尔 5天4晚</p>
+									<p>3.【幸运号】济州+福冈 6天5晚</p>
+									<p>4.【海洋绿洲号】西加勒比海+迈阿密+奥兰多三大主题乐园 13日游</p>
+									<p>5.【音乐号】卡塔科隆+圣托里尼+比雷欧斯+科孚岛+科托尔+威尼斯 8天7晚</p>
+								</div>
+							</div>
+						</div>
+						<!-- 面板4 -->
+						<div class="panel">
+							<div class="panel-heading">
+								<a href="#four" class="panel-title" data-toggle="collapse" data-parent="#panelGroup"><div>当地玩乐</div></a>
+							</div>
+							<div id="four" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>1.亚庇Kawa红树林一日游【豪华版 骑马拍照+香格里拉下午茶】</p>
+									<p>2.【精选热门品牌】清迈丛林飞跃（天际线冒险/丛林飞鹰/长臂猿/原子飞车/泰山飞跃）</p>
+									<p>3.【中文导游】法国巴黎凡尔赛宫+枫丹白露宫逍遥一日游</p>
+									<p>4.【纯玩】陕西历史博物馆+兵马俑+实景历史舞剧《长恨歌》深度一日游</p>
+									<p>5.【VIP专享 绝对高端纯玩】熊猫基地+青城山+都江堰一日游</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 左侧折叠菜单结束 -->
+				<div class="col-md-6">
+					<img src="images/service-img.jpg" alt="服务图片" class="img-responsive center-block" id="services-img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 提供服务结束 -->
+	<!-- 游客经历开始 -->
+	<section class="events" id="events">
+		<h3 class="text-center">游客经历</h3>
+		<p class="text-center">最美目的地 提供给您不一样的舒服体验</p>
+		<div class="container">
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center">行摄苏州</h4>
+					<p>根据苏州古典园林、生态湿地、古镇古村、山林寺庙等资源，结合苏州秋季旅游特色；最终制定了三条涵盖拙政园、天平山、太湖湿地、阳澄湖、陆巷古村、寒山寺等十余个景点且不同资源特色的行摄线路，并由《中国国家地理》三名资深摄影师分别带队主导拍摄。</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center">云游云台山</h4>
+					<p>云台山位于焦作市修武县北部，景区内地形复杂，气候随海拔与山势山形变化各异，自然景观丰富，而且有中原地区少有的丹霞地貌景观，是去焦作旅游必去的景点之一。丰富的植被和层峦叠嶂的群山，将中原壮美的自然风光和秀丽的山水融入在云台山的美景之中。</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center">来香港“搞鬼”吧</h4>
+					<p>在设有年龄限制的重量级“鬼屋”里，经得住华丽真人秀舞蹈的魅惑，但你能撑过血腥凌虐的人体实验场景吗？恐怖密室里的体验包你“惊心动魄”，“喊破嗓子”！一个接一个血腥心寒的恐怖场面尽现眼前，配合阵阵毛骨悚然的叫声，全面冲击你的感官极限！</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- 游客经历结束 -->
+	<!-- 旅游展示开始 -->
+	<section class="gallery" id="gallery">
+		<h3 class="text-center">旅游展示</h3>
+		<p class="text-center">看完就出发，各地游玩图片展示，如果喜欢就赶紧加入吧！</p>
+		<div class="conainer">
+			<div class="lk content">
+				<div class="main">
+					<a href="javascript:;" i="images/gallery-img1-1.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img1.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img2-2.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img2.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img3-3.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img3.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img4-4.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img4.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img5-5.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img5.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img6-6.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img6.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img7-7.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img7.jpg" alt=""></a>
+					<a href="javascript:;" i="images/gallery-img8-8.jpg" class="Slide One col-lg-3 col-md-3"><img src="images/gallery-img8.jpg" alt=""></a>
+
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- 旅游展示结束 -->
+	<!-- 志愿者开始 -->
+	<section class="Volunteer" id="Volunteer">
+		<h3 class="text-center">志愿者</h3>
+		<p class="text-center">保护环境公民报告</p>
+		<div class="container">
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<img src="images/test-img1.png" alt="志愿者头像" class="center-block">
+					<h4 class="text-center">绿色足迹</h4>
+					<p> “绿色足迹Green Footprint——环保旅行加减法”是携程积极倡导的绿色环保旅行方式.随着社会、经济的飞速发展，人类的足迹正在不断扩大，与其同时对环境的污染也跟随着人类远行的脚步散播到世界各地，保护环境已经成为每个地球公民刻不容缓的义务，我们倡导只为地球留下绿色足迹的环保旅行方式.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<img src="images/test-img2.png" alt="志愿者头像" class="center-block">
+					<h4 class="text-center">共植携程林</h4>
+					<p> 自2008年9月，我们在内蒙古自治区通辽市库伦旗的植树基地种植第一批携程林后，我们每年都会将虚拟树苗兑现为实体树苗进行种植。截止目前为止，已在北京金山岭种植树苗136478棵，内蒙古库伦旗种植树苗12793棵。随着低碳意识的增强，碳补偿理念的普及，我们的版图将越来越延伸扩大！来加入吧</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<img src="images/test-img3.png" alt="志愿者头像" class="center-block">
+					<h4 class="text-center">碳补偿</h4>
+					<p> 碳补偿，即Carbon Offset，也叫碳中和。是现代人为减缓全球变暖所作的努力之一，人们计算自己日常活动直接或间接制造碳补偿的二氧化碳排放量，并计算抵消这些二氧化碳所需的经济成本，然后个人付款给专门企业或机构，由他们通过植树或其他环保项目抵消大气中相应的二氧化碳量。一起来保护环境吧</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 志愿者结束 -->
+	<!-- 联系我们开始 -->
+	<section class="contact" id="contact">
+		<h3 class="text-center">联系我们</h3>
+		<p class="text-center">如果你对我们的自助旅游或者志愿者活动感兴趣，联系我们！</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<form id="contact-us" method="post">
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<input type="text" class="form-control user-name" placeholder="你的名字" required>
+							</div>
+							<div class="form-group col-lg-4">
+								<input type="email" class="form-control mail" placeholder="你的邮箱" required>
+							</div>
+							<div class="form-group col-lg-4">
+								<input type="tel" class="form-control pno" placeholder="你的电话号码" required>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-lg-12">
+								<textarea class="form-control" rows="6" placeholder="你有什么想说的留给我们" required></textarea>
+							</div>
+							<div class="form-group col-lg-12">
+								<button type="submit" href="#" class="btn-outline1">加入我们</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 联系我们结束 -->
+	<!-- 网页底部开始 -->
+	<section class="footer" id="footer"> 
+		<h3 class="text-center">感谢您观看我的网页</h3>
+		<hr>
+		<p class="text-center">如果你对我感兴趣的话请点击我的个人简历</p>
+		<a href="#0" id="top">Top</a>
+		<div class="container">
+			<div class="row">
+				<div class="resume">
+						
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 网页底部结束 -->
+	<script type="text/javascript" src="js/ttt.js"></script>
+	<!-- 引入插件 -->
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js1/simple.slide.min.js"></script>
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript">
+		$('.One').simpleSlide();
+	</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+	background: #000;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#wrapper {
+	margin:50px auto;
+	position: relative;
+	top:0;
+	left: 0;
+}
+/* =Menu
+--------------------------------------------------------------------------------------------------------*/
+#menu {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+}
+#menu .colourful{
+	display: block;
+	position: absolute;
+	background: #f0ad22;
+	height: 38px;
+	width: 85px;
+	top: 4px;
+	left: -100px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+#menu li {
+	float: left;
+	margin: 0 0px 0 0;
+}
+#menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+	color: #C4C4C4;
+	text-align: center;
+	display: block;
+	border: solid;
+	border-width: 4px 0 0;
+	line-height: 40px;
+	width: 85px;
+}
+@media screen and (min-width: 992px){
+	#menu{
+		left: 100px;
+	}
+	#menu a:link, #menu a:visited, #menu a:hover, #menu a:active{
+		width:100px;
+	}
+	#menu .colourful{
+		width: 100px;
+	}	
+}
+#menu li a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 1px #999;
+}

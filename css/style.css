@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*初始化*/
+body{
+	padding:0;
+	margin:0;
+	background: black;
+	color: #fff;
+
+}
+/*
+	登陆注册
+*/
+#login-register{
+	float: right;
+	
+}
+#login-register a{
+	margin-left: 10px;
+	font-size: 16px;
+	color: #fff;
+}
+/*
+	banner开始
+*/
+.navbar{
+	display: block;
+	background: rgba(0,0,0,0);
+}
+.navbar-logo{
+	color: #fff;
+	font-size: 36px;
+	float: left;
+	margin-top: 40px;
+}
+.bannerBtn > span{
+	font-size: 70px;
+	text-align: center;
+	position: absolute;
+	bottom: 50%;
+}
+.navbar-default{
+	border-color: #000;
+}
+#bannerPlay div img{
+ 	width: 100%;
+ }
+.navbar-toggle{
+	margin-top: 40px;
+}
+/*关于我们*/
+#aboutUs{
+	color: #fff;
+	padding: 100px 0;
+}
+#aboutUs h3{
+	font-size: 36px;
+}
+#aboutUs p{
+	font-size: 16px;
+	margin: 35px 0;
+	word-spacing: 0.3em;
+}
+.about-img img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-info{
+	margin-top: 40px;
+}
+.about-info h4{
+	text-align: center;
+}
+.about-info p{
+	font-variant: 18px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+/*提供服务*/
+#services{
+	margin-top: 50px;
+	background:url(../images/service.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+    padding: 100px 0;
+}
+#services h3{
+	font-size: 36px;
+}
+#services > p{
+	font-size: 16px;
+	margin: 35px 0;
+	word-spacing: 0.3em;
+}
+/*折叠菜单*/
+.panel-heading{
+	background: #212121;
+}
+.panel-heading a div{
+	font-size: 18px;
+
+}
+.panel-body > p{
+	color: #000;
+	font-size: 16px;
+	text-indent: 0.3em;
+}
+/*游客经历开始*/
+#events{
+	background:url(../images/event.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+    padding: 100px 0;
+    margin-bottom: 35px;
+}
+#events h3{
+	font-size: 36px;
+	
+}
+#events p{
+	font-size: 16px;
+	margin: 35px 0px;
+	word-spacing: 0.3em;
+}
+#events div > div{
+	margin-top: 15px; 
+}
+#events div > div > div{
+	padding: 25px 50px;
+	text-indent: 2em;
+	background: rgba(0,0,0,0.3);
+}
+#events div > div > div:hover{
+	background: rgba(0,0,0,0.6);
+}
+#events h4{
+	font-size: 20px;
+}
+/*画廊开始*/
+#gallery{
+	padding: 100px 0;
+}
+#gallery h3{
+	font-size: 36px;	
+}
+#gallery p{
+	font-size: 16px;
+	margin: 35px 0px;
+	word-spacing: 0.3em;
+}
+#gallery div div div a{
+	width: 25%;
+}
+#gallery div div div a img{
+	width: 100%;
+}
+/*志愿者开始*/
+#Volunteer{
+	background:url(../images/test1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+    padding: 100px 0;
+}
+#Volunteer h3{
+	font-size: 36px;
+}
+#Volunteer p{
+	font-size: 16px;
+	margin: 35px 0px;
+	word-spacing: 0.3em;
+}
+#Volunteer div img{
+	width: 35%;
+	margin: 0 auto;
+}
+#Volunteer div > div{
+	margin-top: 15px; 
+}
+#Volunteer div > div > div{
+	padding: 25px 50px;
+	text-indent: 2em;
+	background: rgba(0,0,0,0.3);
+	border: 3px solid rgba(0,0,0,0.6);
+}
+#Volunteer div > div > div:hover{
+	background: rgba(0,0,0,0.6);
+}
+#Volunteer div > div > div h4{
+	margin-left: -30px;
+}
+/*联系我们*/
+#contact{
+	background:url(../images/contact.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+    padding: 100px 0;
+}
+#contact h3{
+	font-size: 36px;
+}
+#contact p{
+	font-size: 16px;
+	margin: 35px 0px;
+	word-spacing: 0.3em;
+}
+#contact .form-control{
+	color: #fff;
+	padding: 10px 0;
+	border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 0px;
+    background: rgba(0,0,0,0.5)
+}
+#contact .btn-outline1{
+	width: 100%;
+	font-size: 20px;
+	padding: 10px 50px;
+	margin: 20px 0;
+	background-color: rgba(0, 0, 0, 0.22);
+}
+/*网页底部开始*/
+#footer h3{
+	font-size: 36px;
+	margin-top: 50px;
+}
+#footer p{
+	font-size: 16px;
+	margin: 35px 0px;
+	word-spacing: 0.3em;
+}
+#top{
+	position: fixed;
+	bottom: 50px;
+	right: 35px;
+	font-size: 50px;
+	background: rgba(0,0,0,0.3);
+}
